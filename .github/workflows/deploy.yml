@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: oism28/soccer-stats-backend  # EJ: omarserrano/flask-api
+  IMAGE_NAME: ghcr.io/oism28/soccer-stats-backend:latest  # EJ: omarserrano/flask-api
 
 jobs:
   build-and-push:
