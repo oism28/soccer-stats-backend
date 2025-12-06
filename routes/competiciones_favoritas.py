@@ -48,3 +48,5 @@ def eliminar_competicion_favorita(competition_id, usuario_id):
 	session.delete(favorito)
 	session.commit()
 	return jsonify({'message': 'Competición favorita eliminada', 'competicion_id': competition_id})
+
+#Este es un comentario para probar el funcionamiento de GitHub Actions con Render
